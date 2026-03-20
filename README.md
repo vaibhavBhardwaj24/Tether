@@ -1,4 +1,7 @@
-# 🔗 Tether
+<div align="center">
+  <img src="tether-ext/media/icon.svg" alt="Tether Logo" width="120" height="120" />
+  <h1>Tether</h1>
+</div>
 
 > **Control your AI coding assistant from your phone.**
 >
