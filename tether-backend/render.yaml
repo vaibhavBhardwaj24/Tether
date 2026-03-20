@@ -1,0 +1,16 @@
+# Antigravity Relay Server — Render.com deployment config
+services:
+  - type: web
+    name: antigravity-relay
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: REDIS_URL
+        sync: false   # Set this manually in Render dashboard
+      - key: CORS_ORIGIN
+        value: "*"
+    healthCheckPath: /health
+    autoDeploy: true

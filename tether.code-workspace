@@ -1,0 +1,32 @@
+{
+  "folders": [
+    {
+      "name": "Tether Extension",
+      "path": "ai-ai"
+    },
+    {
+      "name": "Tether Backend",
+      "path": "ai-ai-backend"
+    }
+  ],
+  "settings": {
+    "extensions.autoCheckUpdates": false
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Tether Extension",
+        "type": "extensionHost",
+        "request": "launch",
+        "args": [
+          "--extensionDevelopmentPath=${workspaceFolder:Tether Extension}"
+        ],
+        "outFiles": [
+          "${workspaceFolder:Tether Extension}/dist/**/*.js"
+        ],
+        "preLaunchTask": "${defaultBuildTask}"
+      }
+    ]
+  }
+}
