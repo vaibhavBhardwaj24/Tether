@@ -8,7 +8,10 @@
 > Tether bridges your VS Code editor and your mobile device over a WebSocket relay so you can monitor Antigravity AI in real-time, send prompts, accept/reject changes, run shell commands, check Git status — all without touching your keyboard.
 
 ---
+## Demo
 
+[![Watch the demo](https://img.youtube.com/vi/_zTduryqdLI/maxresdefault.jpg)](https://www.youtube.com/watch?v=_zTduryqdLI)
+---
 ## 📖 Origin Story
 
 Born from *Distraction-Driven Development* ™️.
